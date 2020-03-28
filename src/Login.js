@@ -21,74 +21,97 @@ class Resume extends Component {
             </div>
 
             <h4 style={{color: 'grey',textAlign:'center'}}>Programmer</h4>
-            <hr style={{borderTop: '3px solid #9D845B', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid #9D845B', width: '100%'}}/>
             <p>I am Manel Turki, web developer from Tunisia. I have an experience in web site design and building, 
         also I am good at PHP and Mysql. I m also enrolled in Re:coded's front-end development bootcamp, 
         where we get a certificate from Flatiron School.
    </p>
-            <hr style={{borderTop: '3px solid #9D845B', width: '50%'}}/>
-            <h5>aa</h5>
-            <p>a</p>
-            <h5>ae</h5>
-            <p>a</p>
-            <h5>a</h5>
-            <p>a</p>
-            <h5>a</h5>
-            <p>a</p>
-            <hr style={{borderTop: '3px solid #9D845B', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid #9D845B', width: '100%'}}/>
+            
+            <Skills
+                skill="Arabic"
+                progress={100}
+                />
+            
+            <Skills
+                skill="Turkish"
+                progress={100}
+                />
+                 
+            <Skills
+                skill="french"
+                progress={70}
+                />
+                 
+            <Skills
+                skill="English"
+                progress={60}
+                />
+            <hr style={{borderTop: '3px solid #9D845B', width: '100%'}}/>
+
+            <Skills
+                skill="javascript"
+                progress={80}
+                />
+                <Skills
+                  skill="HTML/CSS"
+                  progress={100}
+                  />
+                  <Skills
+                    skill="React"
+                    progress={70}
+                    />
+                    <Skills
+                      skill="php"
+                      progress={50}
+                      />
+                       <Skills
+                      skill="java"
+                      progress={70}
+                      />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
+            <h6  style={{fontSize: '30px'}}>Education</h6>
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription=""
+              startYear={2017}
+              endYear="Present"
+              schoolName="Fatih Sultan Mehmet Vakıf Üniversitesi"
+              schoolDescription="Computer Engineering"
                />
 
                <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName=""
-                 schoolDescription=""
+                 startYear="2019 dec"
+                 endYear="2020 may"
+                 schoolName="Re:Coded "
+                 schoolDescription="Front End Development Bootcamp"
                   />
-                <hr style={{borderTop: '3px solid #e22947'}} />
+                <hr style={{borderTop: '3px solid white'}} />
 
-              <h2>Experience</h2>
+                <h6  style={{fontSize: '30px'}}>Experience</h6>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
+              startYear="2017"
+              endYear="2019"
+              jobName="OIC INTERN International Intern Office"
               jobDescription=""
               />
 
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription=""
+                startYear="2019 jul"
+                endYear="2019 Aug"
+                jobName="Kalite Group"
+                jobDescription="Web Developer"
                 />
-              <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
-              <Skills
-                skill="javascript"
-                progress={100}
+              
+              <Experience
+                startYear="2016 jul"
+                endYear="2016 Aug"
+                jobName="Tunus Telekom"
+                
                 />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      />
+              
 
 
           </Cell>

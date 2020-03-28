@@ -19,7 +19,7 @@ class Navbar extends React.Component {
     return (
       <div style={{height: '300px', position: 'relative'}}>
       <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-          <Header transparent title="Title" style={{color: 'white'}}>
+          <Header transparent title="welcome" style={{color: 'white'}}>
               <Navigation>
               <Link to="/Home">Home</Link>
                 <Link to="/Login">Cv</Link>
@@ -27,7 +27,7 @@ class Navbar extends React.Component {
                 <Link to="/contact">contact</Link>
               </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Menu">
               <Navigation>
               <Link to="/Home">Home</Link>
                 <Link to="/Login">Cv</Link>
